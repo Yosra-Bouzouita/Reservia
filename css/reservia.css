@@ -48,7 +48,7 @@ nav  li {
 nav a {
     
     text-decoration: none;
-    font-family: "Raleway-bold";
+    font-family: "Raleway-normal";
     
   }
   nav a:hover /* Apparence au survol des liens */
@@ -59,12 +59,15 @@ nav a {
    #a1
 {
     border-top: 3px blue solid;
-    padding: 32px;
+    padding-top: 32px;
+    padding-right: 10px;
+    padding-left:  10px; 
 }
 
 #a2
 {
     color:black;
+    padding-right: 10px;
 }
 
 .paragraphe1
@@ -390,6 +393,7 @@ font-size: 0.9em;
     height: 60px;
     font-size: 0.9em;
     margin-top: 10px;
+    padding-top: 15px;
     box-shadow: 8px 7px 8px  rgb(238, 238, 238);
     width: 340px;
     position: relative;
