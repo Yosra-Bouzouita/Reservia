@@ -441,4 +441,46 @@ font-size: 0.9em;
     margin-top: 5px;
     height: 200px;
 }  
- 
+.footer
+{ 
+   display: flex;
+    justify-content: space-around;
+    padding-right: 450px;
+    margin-top: 80px;
+    padding-top: 20px;
+    background-color:#F2F2F2;
+    
+} 
+footer ul
+ {
+    font-family: "Raleway-normal";
+    list-style-type: none;
+  } 
+  #lienfooter
+  {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+h5
+{ 
+    margin-left: 40px;
+    font-family: "Raleway-bold";
+ } 
+ #Apropos
+ { 
+    position: relative;
+    right: 50px;
+    line-height: 2em;
+ }
+  #noshebergements
+ { 
+    
+    line-height: 2em;
+ }
+ #Asistance
+ { 
+    line-height: 2em;
+    position: relative;
+    left: 150px;
+ }
