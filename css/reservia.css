@@ -46,17 +46,27 @@ nav  li {
     margin-right: 30px;
 }
 nav a {
-    padding-bottom: 3px;
+    
     text-decoration: none;
-    margin-top: 30px;
     font-family: "Raleway-bold";
-    font-size: 0.8em;
+    
   }
   nav a:hover /* Apparence au survol des liens */
 {
    color:black;
    text-decoration: none;
+} 
+   #a1
+{
+    border-top: 3px blue solid;
+    padding: 32px;
 }
+
+#a2
+{
+    color:black;
+}
+
 .paragraphe1
 {
     font-size: 0.9em;
@@ -237,9 +247,13 @@ aside
     border-radius: 20px;
     border: none;
     box-shadow: 8px 7px 8px  lightgray;
-    
-    
-}   
+}  
+.boutonimage1:hover
+{
+    background-color: white;
+    transform: scale(1.015);
+}
+
 #image1
 {
     border-radius: 20px 20px 0px 0px;
@@ -295,7 +309,12 @@ aside
     border: none;
     font-family: "Raleway-normal";  
     box-shadow: 8px 7px 8px  lightgray;
-}   
+}  
+.boutonimage2:hover
+{
+    background-color:white;
+    transform: scale(1.015);
+} 
 #image2
 {
   float: left; 
@@ -335,7 +354,7 @@ font-size: 0.9em;
       display: flex;
        
   }  
-  #kk
+  #lesboutonsactivites
   {
       display: flex;
        
@@ -349,21 +368,25 @@ font-size: 0.9em;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 20px;
-    border: black;
-    
+    border: black;  
+}
+.boutonimage3:hover
+{
+    background-color: transparent;
+    transform: scale(1.015);
 }
 #image3
  { 
     border-radius: 20px 20px 0px 0px;
     margin-top: 5px;
-    height: 410px;
+    height: 450px;
     
 }  
 .paragrapheimage3
 { 
     text-align:left;
     padding-left: 30px;
-    font-family: "Raleway-normal";
+    font-family: "Raleway-bold";
     height: 60px;
     font-size: 0.9em;
     margin-top: 10px;
@@ -372,7 +395,7 @@ font-size: 0.9em;
     position: relative;
     right: 6px;
     border-radius: 0px 0px 20px 20px;
-    
+    overflow: hidden;
 }  
 #menu1
 {
@@ -382,43 +405,36 @@ font-size: 0.9em;
     font-family: "Raleway-bold";
     
 }  
-#image4
+#image4, #image6
  { 
     border-radius: 20px 20px 0px 0px;
     margin-top: 5px;
-    height: 150px;
+    height: 140px;
 }  
-.ii
+.lespetitsboutons
 {
     display: flex;
     flex-direction: column;
 }
-.boutonimage4
+.boutonimage4, .boutonimage5, .boutonimage6, .boutonimage7
  {
     width: 345px;
     margin-left:10px; 
-    margin-right: 10px;
+    margin-right: 15px;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 20px;
-    border: none;
-    
+    border: none;   
 }  
-#image5
+.boutonimage4:hover, .boutonimage5:hover, .boutonimage6:hover, .boutonimage7:hover
+{
+    background-color: transparent;
+    transform: scale(1.015);
+}
+#image5, #image7
  { 
     border-radius: 20px 20px 0px 0px;
     margin-top: 5px;
-    height: 150px;
+    height: 200px;
 }  
-
-.boutonimage5
- {
-    width: 345px;
-    margin-left:10px; 
-    margin-right: 10px;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 20px;
-    border: none;
-    
-}  
+ 
