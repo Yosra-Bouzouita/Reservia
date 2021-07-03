@@ -27,29 +27,25 @@
 
 .Raleway-bold
 {
-    font-family: "Raleway-bold";
-    
+    font-family: "Raleway-bold";   
 }
-    
-
 .paragraphe
 {
-    margin-left: 8px;
-    
+    margin-left: 8px;   
 }
 
-nav ul {
+nav ul
+{
     list-style-type: none;
     display:flex;
 }
 nav  li {
     margin-right: 30px;
 }
-nav a {
-    
+nav a 
+{
     text-decoration: none;
-    font-family: "Raleway-normal";
-    
+    font-family: "Raleway-normal"; 
   }
   nav a:hover /* Apparence au survol des liens */
 {
@@ -62,26 +58,28 @@ nav a {
     padding-top: 32px;
     padding-right: 10px;
     padding-left:  10px; 
+    font-size: 1.2em;
 }
-
 #a2
 {
     color:black;
     padding-right: 10px;
+    font-size: 1.2em;
 }
-
-.paragraphe1
+#a3
 {
-    font-size: 0.9em;
+    font-size: 1.2em;
+}
+.paragraphe1
+{ 
+    font-size: 1.2em;
     font-family: "Raleway-bold";
 }
 .paragraphe2
   {
-    font-size: 0.9em;
+    font-size: 1.3em;
     font-family: "Raleway-light";
-
 }
-
 
 .form-inline
 {
@@ -93,17 +91,19 @@ nav a {
     color:black;
     background-color: lightgray;
     border-color: lightgray;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 1.3em;
  }
  #recherche
  {
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1.3em;
  }
  #pseudo
  {
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 1px 1px 0px;
+    font-size: 1.3em;
  }
-
 
 .resultatRecherche 
 {
@@ -136,23 +136,22 @@ nav a {
 {
     margin: 0;
     font-family: "Raleway-light";
+    font-size: 1.4em;
 }
-
 .Btn 
 {
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
     margin-left: 30px;
-    font-family: "Raleway-bold";
-    
+    font-family: "Raleway-bold"; 
 }
-
 .BtnTitle 
 {
     margin: 0 2rem 1rem 0;
     display: flex;
     align-items: center;
+    font-size: 1.3em;
 }
 
 .BtnFilter 
@@ -166,6 +165,7 @@ nav a {
     cursor: pointer;
     transition-duration: 0.1s;
     font-weight: bold;
+    height: 50px;
     
 }
 .BtnFilter:last-child 
@@ -183,8 +183,8 @@ nav a {
 {
     background-color: #DEEBFF;
     border-radius: 100%;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     min-height: 40px;
     min-width: 40px;
     display: flex;
@@ -199,6 +199,7 @@ nav a {
 .BtnFilterTitle 
 {
     margin: 0 1rem;
+    font-size: 1.3em;
 }
 .block
 {
@@ -222,8 +223,7 @@ aside
     background-color:#E3EAEF;
     border-radius: 20px;
     padding-right: 100px;
-    margin-right: 30px;
-    
+    margin-right: 30px;  
 }
 .paragrapheimage
 {
@@ -231,14 +231,12 @@ aside
     margin-left: 10px;
     font-family: "Raleway-normal";
     height: 60px;
-    font-size: 0.9em;
     margin-top: 10px;
 }  
 .boutonimage
 {
     display: flex;
-    text-align: center;   
-    
+    text-align: center;    
 }
 .boutonimage1
 {
@@ -261,25 +259,24 @@ aside
 {
     border-radius: 20px 20px 0px 0px;
     margin-top: 5px;
-    height: 150px;
-    
-    
+    height: 150px;   
+    object-fit: cover;
 }   
 #home
 {
-    margin-left:40px; 
+    margin-left:60px; 
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Raleway-bold";
-    
 }   
   
 #affichage
 {
-    margin-left: 30px;
+    margin-left: 50px;
     font-family: "Raleway-bold";
     margin-top: 20px;
     margin-bottom: 40px;
+    font-size: 1.2em;
 }
 #titre
 {
@@ -305,182 +302,178 @@ aside
 .boutonimage2
 {
     width: 115%;
-    margin-left:20px; 
+    margin-left:12px; 
     margin-bottom: 20px;
     background-color: white;
     border-radius: 20px;
     border: none;
     font-family: "Raleway-normal";  
-    box-shadow: 8px 7px 8px  lightgray;
+    box-shadow: 8px 7px 8px  lightgray;  
 }  
 .boutonimage2:hover
 {
-    background-color:white;
-    transform: scale(1.015);
+  background-color:white;
+  transform: scale(1.015);
 } 
 #image2
 {
   float: left; 
   border-radius: 20px 0px 0px 20px;
-  margin: 8px 25px 0px 3px;
+  margin: 8px 25px 8px 3px;
   height: 160px;
+  object-fit: cover;
 }   
 .paragrapheimage2
 {
-font-size: 0.9em;
+
  margin-top: 15px;
  text-align: left;
 }  
-.checked {
-    color:  #0065FC;
-    
-  }
+.checked
+ {
+ color:  #0065FC;  
+ }
   
-  .unchecked
+.unchecked
   {
-      color: #d9d9d9;
+ color: #d9d9d9;
       
   }
   .checked2
    {
-    color:  #0065FC;
-    margin-top: 40px;
+  color: #0065FC;
+  margin-top: 20px;
   }
   
   .unchecked2
   {
-      color: #d9d9d9;
-      margin-top: 40px;
+   color: #d9d9d9;
+   margin-top: 20px;
   }
-  .boutonimage-
-  {
-      display: flex;
-       
-  }  
+  #menu1
+{
+  margin-left:40px; 
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "Raleway-bold";
+}  
+
   #lesboutonsactivites
   {
-      display: flex;
-       
+   display: flex; 
+   position: relative;
+   right: 6px;   
+   list-style-type: none;
   }  
- 
-    .boutonimage3
- {
-    width: 345px;
-    margin-left:25px; 
-    margin-right: 15px;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 20px;
-    border: black;  
-}
-.boutonimage3:hover
+  
+  .lespetitsboutons
 {
-    background-color: transparent;
-    transform: scale(1.015);
-}
-#image3
- { 
-    border-radius: 20px 20px 0px 0px;
-    margin-top: 5px;
-    height: 450px;
-    
+   display: flex;
+   flex-direction: column;
+}  
+  #image3
+  { 
+  height: 600px;
+  width: 452px;
+  object-fit: cover;
+  margin-right: 50px;
+  box-shadow: 8px 0px 10px  lightgray,-8px 0px 10px  lightgray ;
+  border-radius: 20px 20px 0px 0px;
 }  
 .paragrapheimage3
-{ 
-    text-align:left;
-    padding-left: 30px;
-    font-family: "Raleway-bold";
-    height: 60px;
-    font-size: 0.9em;
-    margin-top: 10px;
-    padding-top: 15px;
-    box-shadow: 8px 7px 8px  rgb(238, 238, 238);
-    width: 340px;
-    position: relative;
-    right: 6px;
-    border-radius: 0px 0px 20px 20px;
-    overflow: hidden;
+{  
+  width: 450px;
+  box-shadow: 8px 7px 10px lightgray, -8px 7px 10px  lightgray;
 }  
-#menu1
-{
-    margin-left:40px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: "Raleway-bold";
-    
-}  
-#image4, #image6
- { 
-    border-radius: 20px 20px 0px 0px;
-    margin-top: 5px;
-    height: 140px;
-}  
-.lespetitsboutons
-{
-    display: flex;
-    flex-direction: column;
-}
-.boutonimage4, .boutonimage5, .boutonimage6, .boutonimage7
- {
-    width: 345px;
-    margin-left:10px; 
-    margin-right: 15px;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 20px;
-    border: none;   
-}  
-.boutonimage4:hover, .boutonimage5:hover, .boutonimage6:hover, .boutonimage7:hover
-{
-    background-color: transparent;
-    transform: scale(1.015);
-}
+
 #image5, #image7
- { 
-    border-radius: 20px 20px 0px 0px;
-    margin-top: 5px;
-    height: 200px;
+{
+  height: 300px;
+  width: 452px; ;
+  object-fit: cover;
+  margin-right: 50px;
+  box-shadow: 8px 0px 10px  lightgray,-8px 0px 10px  lightgray;
+  border-radius: 20px 20px 0px 0px;
+}  
+.boutonimage5
+{
+  margin-bottom: 35px;
+}  
+#image7
+{
+  margin-top: 35px;
+  border-radius: 20px 20px 0px 0px;
+}  
+
+#image4, #image6
+{
+  height: 180px;
+  width: 452px;
+  object-fit: cover;
+  margin-right: 50px;
+  box-shadow: 8px 0px 10px  lightgray,-8px 0px 10px  lightgray;
+  border-radius: 20px 20px 0px 0px;
+}  
+.boutonimage3:hover, .boutonimage4:hover, .boutonimage5:hover, .boutonimage6:hover, .boutonimage7:hover
+{
+  background-color: transparent;
+  transform: scale(1.015);
+}
+#lienactivite
+{
+  text-decoration: none;
+  color: black;
+}
+.paragrapheimage3
+{
+  text-align:left;
+  border-radius: 0px 0px 20px 20px;
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  font-family: "Raleway-bold";
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
 }  
 .footer
 { 
-   display: flex;
-    justify-content: space-around;
-    padding-right: 450px;
-    margin-top: 80px;
-    padding-top: 20px;
-    background-color:#F2F2F2;
-    
+  display: flex;
+  margin-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color:#F2F2F2; 
 } 
 footer ul
  {
-    font-family: "Raleway-normal";
-    list-style-type: none;
+  font-family: "Raleway-normal";
+  list-style-type: none;
   } 
   #lienfooter
   {
   text-decoration: none;
   color: black;
   text-align: left;
-}
-h5
+  font-size: 1.2em;
+} 
+#footerh5
 { 
-    margin-left: 40px;
-    font-family: "Raleway-bold";
+   margin-left: 40px;
+   font-family: "Raleway-bold";
+   margin-bottom: 25px;
  } 
  #Apropos
  { 
-    position: relative;
-    right: 50px;
-    line-height: 2em;
+   margin-right: 400px;
+   line-height: 2em;   
  }
   #noshebergements
  { 
-    
-    line-height: 2em;
+   margin-right: 400px;
+   line-height: 2em;
  }
  #Asistance
  { 
-    line-height: 2em;
-    position: relative;
-    left: 150px;
+   line-height: 2em; 
  }

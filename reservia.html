@@ -27,18 +27,17 @@
                     <nav>
                         <ul>
                             <li class="nav-item">
-                                <a id="a1" href="#home">Hébergements</a>
+                             <a id="a1" href="#home">Hébergements</a>
+                           </li>
+                            <li  class="nav-item">
+                             <a  id="a2" href="#menu1">Activités</a>
                               </li>
-                              <li  class="nav-item">
-                                <a  id="a2" href="#menu1">Activités</a>
-                              </li>
-                              <li id="a3"class="nav-item">
-                                <a href="#menu2">S'inscrire</a>
-                              </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+                            <li id="a3"class="nav-item">
+                             <a href="#menu2">S'inscrire</a>
+                            </li>
+                      </ul>
+                  </nav>
+               </div>
         </header>
         
         <section>
@@ -86,7 +85,7 @@
             </div>
             <div class="block">
             <article>
-                <h5 id="home">Hébergements à Marseille</h5>
+                <h4 id="home">Hébergements à Marseille</h4>
                 <div class="boutonimage">
                     <form method="post" action="traitement.php">
                     <button type="button" class="boutonimage1">
@@ -158,7 +157,7 @@
             </article>
             <aside>
                 <div class="aside">
-                <h5 id="titre">Les plus populaires</h5>
+                <h4 id="titre">Les plus populaires</h4>
                 <i  id="icone2" class="fa fa-line-chart" aria-hidden="true"></i>
             </div>
                 <div class="boutonimage_">
@@ -200,31 +199,33 @@
                 
         </section>
         <section>
-            <h5 id="menu1">Activités à Marseille</h5>
-            <div class="boutonimage-">
-            <form method="post" action="traitement.php">
+            <h4 id="menu1">Activités à Marseille</h4>
+            <ul id="boutonimage-">
+            
                 <div id="lesboutonsactivites">
-            <button type="button" class="boutonimage3"><img id="image3" src="images\activites\2_large\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo d'activités" width="99.6%" /><p class="paragrapheimage3">Vieux Port</p></button>
-            <div class="lespetitsboutons"><button type="button" class="boutonimage5">
-                <img id="image5" src="images\activites\2_large\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo d'activités" width="99.6%"/><p class="paragrapheimage3">Fort de Pomègues</p></button>
-                <button type="button" class="boutonimage4">
-                <img id="image4" src="images\activites\2_large\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Photo d'activités" width="99.6%"/><p class="paragrapheimage3">îles de Frioul</p> </button>
+            <li class="boutonimage3"><a id="lienactivite"href="#button" ><img id="image3" src="images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo d'activités" /><p class="paragrapheimage3">Vieux Port</p></a></li>
+            <div class="lespetitsboutons">
+                <li class="boutonimage5"> <a id="lienactivite" href="#button">
+                <img id="image5" src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo d'activités" /><p class="paragrapheimage3">Fort de Pomègues</p></a></li>
+                <li class="boutonimage4"><a id="lienactivite" href="#button" >
+                <img id="image4" src="images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Photo d'activités" /><p class="paragrapheimage3">îles de Frioul</p> </a></li>
             </div>
-                <button type="button" class="boutonimage3"><img id="image3" src="images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photo d'activités" width="99.6%"/><p class="paragrapheimage3">Parc National des Calanques</p></button>
-                <div class="lespetitsboutons"> <button type="button" class="boutonimage6">
-                 <img id="image6" src="images\activites\2_large\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo d'activités" width="99.6%"/><p class="paragrapheimage3">Notre-Dame-de-la-garde</p></button>
-                 <button type="button" class="boutonimage7">
-                 <img id="image7" src="images\activites\2_large\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photo d'activités" width="99.6%"/><p class="paragrapheimage3">Parc Lomgchamps</p></button>
+            <li><a id="lienactivite" href="#button" class="boutonimage3"><img id="image3" src="images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photo d'activités" /><p class="paragrapheimage3">Parc National des Calanques</p></a></li>
+                <div class="lespetitsboutons">
+                     <li><a id="lienactivite" href="#button" class="boutonimage6">
+                 <img id="image6" src="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo d'activités"/><p class="paragrapheimage3">Notre-Dame-de-la-garde</p></a></li>
+                 <li><a id="lienactivite" href="#button" class="boutonimage7">
+                 <img id="image7" src="images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photo d'activités" /><p class="paragrapheimage3">Parc Lomgchamps</p></a></li>
                  </div>  
                 </div> 
-                </form>
+            </ul>
           </div>
         </section>
         
         <footer>
             <div class="footer">
             <div id="Apropos">
-                <h5>A propos</h5>
+                <h4 id="footerh5">A propos</h4>
                 <ul >
                     <li><a id="lienfooter" href="#">Fonctionnement du site</a></li>
                     <li><a id="lienfooter" href="#">Conditions générales de vente</a></li>
@@ -233,7 +234,7 @@
                 
             </div>
             <div id="noshebergements">
-                <h5>Nos hébergements</h5>
+                <h4 id="footerh5">Nos hébergements</h4>
                 <ul>
                     <li><a id="lienfooter" href="#">Charte qualité</a></li>
                     <li><a id="lienfooter" href="#">Soumettre votre hôtel</a></li>
@@ -241,7 +242,7 @@
 
             </div>
             <div id="Asistance">
-                <h5>Asistance</h5>
+                <h4 id="footerh5">Asistance</h4>
                 <ul>
                     <li><a id="lienfooter" href="#">Centre d'aide</a></li>
                     <li><a id="lienfooter" href="#">Nous contacter</a></li>
