@@ -271,7 +271,6 @@ aside
     background-color: white;
     transform: scale(1.015);
 }
-
 .image1
 {
     border-radius: 20px 20px 0px 0px;
@@ -360,12 +359,12 @@ aside
  }
 
 .unchecked
-  {
+{
  color: #d9d9d9;
+ }
 
-  }
   .checked2
-   {
+  {
   color: #0065FC;
   margin-top: 20px;
   }
@@ -500,7 +499,6 @@ footer ul
  }
  #Apropos
  {
-   
    line-height: 2em;
  }
   #noshebergements
