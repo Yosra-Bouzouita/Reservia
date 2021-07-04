@@ -245,8 +245,11 @@ aside
     display: flex;
     text-align: center;
     list-style-type: none;
+    padding-left: 40px;
+    
 }
-#lienhebergement
+#lienhebergement1, #lienhebergement2, #lienhebergement3, #lienhebergement4, #lienhebergement5, #lienhebergement6, #lienhebergement7, #lienhebergement8, #lienhebergement9
+  
 {
   text-decoration: none;
   color: black;
@@ -255,8 +258,7 @@ aside
 .boutonimage1
 {
     width: 30%;
-    margin-left:10px;
-    margin-right: 10px;
+    margin-right:25px;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 20px;
@@ -274,14 +276,14 @@ aside
 {
     border-radius: 20px 20px 0px 0px;
     margin-top: 5px;
-    height: 150px;
+    height: 120px;
     object-fit: cover;
     width: 96%;
 }
 #home
 {
-    margin-left:60px;
-    margin-top: 20px;
+    margin-left:50px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-family: "Raleway-bold";
 }
@@ -297,7 +299,7 @@ aside
 #titre
 {
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-family: "Raleway-bold";
 }
@@ -321,7 +323,7 @@ aside
 .boutonimage2
 {
     width: 120%;
-    height: 165px;
+    height: 155px;
     margin-left:12px;
     margin-bottom: 20px;
     background-color: white;
@@ -335,13 +337,14 @@ aside
   background-color:white;
   transform: scale(1.015);
 }
-#image2
+#image2, #image2_, #image2-
 {
   float: left;
   border-radius: 20px 0px 0px 20px;
   margin: 8px 25px 8px 8px;
-  height: 148px;
+  height: 138px;
   object-fit: cover;
+  width: 40%;
 }
 
 .paragrapheimage2
@@ -349,7 +352,7 @@ aside
 
  padding-top: 15px;
  text-align: left;
- line-height: 2em;
+ line-height: 1.6em;
 }
 .checked
  {
@@ -393,19 +396,18 @@ aside
    display: flex;
    flex-direction: column;
 }
-  #image3
+  #image3, #image3_
   {
-  height: 600px;
+  height: 540px;
   width: 100%;
   object-fit: cover;
-  margin-right: 50px;
   box-shadow: 8px 0px 10px  lightgray,-8px 0px 10px  lightgray ;
   border-radius: 20px 20px 0px 0px;
 }
 
 #image5, #image7
 {
-  height: 300px;
+  height: 270px;
   width: 100%;
   object-fit: cover;
   box-shadow: 8px 0px 10px  lightgray,-8px 0px 10px  lightgray;
@@ -423,17 +425,21 @@ aside
 
 #image4, #image6
 {
-  height: 180px;
+  height: 150px;
   width: 100%;
   object-fit: cover;
   box-shadow: 8px 0px 10px  lightgray,-8px 0px 10px  lightgray;
   border-radius: 20px 20px 0px 0px;
 }
 
-.boutonimage3, .lespetitsboutons
+.boutonimage3, .lespetitsboutons, .boutonimage8
 {
-  width: 20.75%;
-  margin-right: 5%;
+  width: 20.89%;
+  margin-right: 4%;
+}
+.boutonimage3
+{
+ margin-left: 2.5%;
 }
 
 .lespetitsboutons:last-child
@@ -441,12 +447,12 @@ aside
     margin-right: 0;
 }
 
-.boutonimage3:hover, .boutonimage4:hover, .boutonimage5:hover, .boutonimage6:hover, .boutonimage7:hover
+.boutonimage3:hover, .boutonimage4:hover, .boutonimage5:hover, .boutonimage6:hover, .boutonimage7:hover, .boutonimage8:hover
 {
   background-color: transparent;
   transform: scale(1.015);
 }
-#lienactivite
+#lienactivite1, #lienactivite2, #lienactivite3, #lienactivite4, #lienactivite5, #lienactivite6
 {
   text-decoration: none;
   color: black;
@@ -479,14 +485,14 @@ footer ul
   font-family: "Raleway-normal";
   list-style-type: none;
   }
-  #lienfooter
+  #lienfooter1, #lienfooter2, #lienfooter3, #lienfooter4, #lienfooter5, #lienfooter6, #lienfooter7
   {
   text-decoration: none;
   color: black;
   text-align: left;
   font-size: 1.2em;
 }
-#footerh5
+#footer1h5, #footer2h5, #footer3h5
 {
    margin-left: 40px;
    font-family: "Raleway-bold";
