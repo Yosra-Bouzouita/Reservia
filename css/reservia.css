@@ -29,6 +29,7 @@
 {
     font-family: "Raleway-bold";
 }
+
 #logo
 {
   width:100px;
@@ -78,7 +79,7 @@ nav a
 {
     font-size: 1.2em;
 }
-@media all and (max-width: 800px)
+@media all and (max-width: 768px)
 {
     #a1 
     {
@@ -151,7 +152,7 @@ nav a
     font-size: 1.3em;
    
  }
- @media all and (max-width: 800px)
+ @media all and (max-width: 768px)
 {
   #pseudo
   {
@@ -208,7 +209,7 @@ nav a
 {
   display: none;
 }
-@media all and (max-width: 800px)
+@media all and (max-width: 768px)
 {
   .infoIcon
   {
@@ -290,6 +291,13 @@ nav a
     margin: 0 1rem;
     font-size: 1.3em;
 }
+@media all and (max-width: 768px)
+{
+  .BtnTitle
+  {
+    padding-right: 500px;
+}
+}
 .block
 {
     display: flex;
@@ -321,7 +329,7 @@ aside
     margin-left: 10px;
     padding-left: 8px;
     font-family: "Raleway-normal";
-    height: 15%;
+    font-size: 89%;
     margin-top: 10px;
     
 }
@@ -367,9 +375,9 @@ aside
 #home
 {
     margin-left:40px;
-    margin-top: 30px;
     margin-bottom: 20px;
     font-family: "Raleway-bold";
+    padding-top: 20px;
 }
 
 #affichage
@@ -377,15 +385,16 @@ aside
     margin-left: 50px;
     font-family: "Raleway-bold";
     margin-top: 20px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     font-size: 1.2em;
 }
 #titre
 {
     margin-left: 25px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-family: "Raleway-bold";
+    
 }
     #icone2
 {
@@ -420,7 +429,7 @@ aside
 {
   float: left;
   border-radius: 20px 0px 0px 20px;
-  margin: 8px 25px 8px 8px;
+  margin: 8px 15px 8px 8px;
   height: 138px;
   object-fit: cover;
   width: 40%;
@@ -431,9 +440,9 @@ aside
  padding-top: 15px;
  text-align: left;
  line-height: 1.5em;
- 
+ font-size: 89%;
 }
-@media all and (max-width: 800px)
+@media all and (max-width: 768px)
 {
 .block
 {
@@ -468,6 +477,7 @@ right: 20px;
    margin-left: 10px;
    position: relative;
    left: 10px;
+   border-radius: 0px;
   }
 
 }
@@ -585,11 +595,11 @@ right: 20px;
   font-family: "Raleway-bold";
   text-decoration: none;
   color: black;
-  font-size: 1.2em;
+  font-size: 100%;
   width: 100%;
   box-shadow: 8px 7px 10px lightgray, -8px 7px 10px  lightgray;
 }
-@media all and (max-width: 800px)
+@media all and (max-width: 768px)
 {
   #lesboutonsactivites
 {
@@ -644,13 +654,14 @@ footer ul
   text-decoration: none;
   color: black;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 #footer1h5, #footer2h5, #footer3h5
 {
-   margin-left: 40px;
+   margin-left: 38px;
    font-family: "Raleway-bold";
    margin-bottom: 25px;
+   font-size: 1.1em;
  }
  #Apropos
  {
@@ -659,16 +670,16 @@ footer ul
   #noshebergements
  {
    position: relative;
-   left: 170px;
+   left: 15%;
    line-height: 2em;
  }
  #Asistance
  {
    position: relative;
-   left: 400px;
+   left: 30%;
    line-height: 2em;
  }
- @media all and (max-width: 800px)
+ @media all and (max-width: 768px)
 {
   .footer
 {
@@ -685,5 +696,48 @@ footer ul
    position: relative;
    left: 5px;
    
+ }
+}
+@media all and (min-width: 768px) and (max-width: 991px)
+{
+  .block
+  {
+ display: block;
+  
+}
+aside
+{
+ width: 95%;
+  position: relative;
+  left: 25px;
+  height: 650px;
+ }
+.boutonimage2
+{
+  width: 100%;
+  position: relative;
+  left: 15px;
+ }
+  #titre
+  {
+   padding-top: 20px;
+   }
+   .boutonimage3
+{
+ margin-left: 35px;
+}
+.boutonimage3, .lespetitsboutons, .boutonimage8
+{
+  margin-right: 3.5%;
+}
+#noshebergements
+{
+  position:relative;
+  left: 5%; 
+}
+#Asistance
+ {
+   position: relative;
+   left: 12%;
  }
 }
