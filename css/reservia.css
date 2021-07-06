@@ -31,7 +31,7 @@
 }
 #logo
 {
-  width:25%;
+  width:100px;
 }
 .paragraphe
 {
@@ -42,14 +42,17 @@ nav ul
 {
     list-style-type: none;
     display:flex;
+   
 }
 nav  li {
     margin-right: 30px;
+    
 }
 nav a
 {
     text-decoration: none;
     font-family: "Raleway-normal";
+    
   }
   nav a:hover /* Apparence au survol des liens */
 {
@@ -60,23 +63,56 @@ nav a
 {
     border-top: 3px blue solid;
     padding-top: 32px;
-    padding-right: 10px;
     padding-left:  10px;
+    padding-right: 10px;
     font-size: 1.2em;
 }
 #a2
 {
     color:black;
-    padding-right: 10px;
     font-size: 1.2em;
+    padding-right: 10px;
+     
 }
 #a3
 {
     font-size: 1.2em;
 }
+@media all and (max-width: 800px)
+{
+    #a1 
+    {
+        position: absolute;
+        top: 60px;
+        left: 5px;   
+        border-top: none;
+        border-bottom: 2px blue solid;
+        padding-bottom: 15px;
+        padding-right: 25%;
+        padding-left: 30px;
+    }
+    #a2
+    {
+      position: absolute;
+      top: 95px;
+      right: 20%;   
+  }
+  #a3
+    {
+      position: absolute;
+        right: 2%;  
+  }
+  
+  #bordure
+  {
+    border-bottom: 3px rgb(243, 243, 243) solid;
+    margin-top: 40px;
+  }
+  
+}
 .paragraphe1
 {
-    font-size: 1.2em;
+    
     font-family: "Raleway-bold";
     margin-left: 2%;
 }
@@ -89,7 +125,7 @@ nav a
 
 .form-inline
 {
-   margin-left: 30px;
+   margin-left: 25px;
    font-family: "Raleway-bold";
  }
 #icon
@@ -105,11 +141,35 @@ nav a
     border-radius: 0px 10px 10px 0px;
     font-size: 1.3em;
  }
+ #recherche1
+ {
+    display: none;
+ }
  #pseudo
  {
     border-radius: 0px 1px 1px 0px;
     font-size: 1.3em;
+   
  }
+ @media all and (max-width: 800px)
+{
+  #pseudo
+  {
+   width: 75%;
+}
+#recherche
+{
+  display: none;
+}
+#recherche1
+ {
+    display: inline;
+    height: 45px;
+    width: 45px;
+    border-radius: 0px 10px 10px 0px;  
+ }
+ 
+}
 
 .resultatRecherche
 {
@@ -142,7 +202,55 @@ nav a
 {
     margin: 0;
     font-family: "Raleway-light";
-    font-size: 1.4em;
+    font-size: 1.5em;
+}
+.resultatRechercheText1
+{
+  display: none;
+}
+@media all and (max-width: 800px)
+{
+  .infoIcon
+  {
+    margin-bottom: 60px;
+    margin-top: 10px;
+  }
+  .resultatRechercheText1
+{
+  display: inline;
+  font-family: "Raleway-light";
+    font-size: 1.5em;
+}
+.resultatRechercheText
+{
+  display: none;
+}
+}
+@media all and (max-width: 800px)
+{
+.block
+{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.boutonimage
+{
+  display: flex;
+  flex-direction: column;
+}
+.boutonimage1
+{
+ width: 100%;
+}
+article
+{
+ background-color: transparent;
+}
+aside
+{
+ background-color: transparent;
+}
+
 }
 .Btn
 {
@@ -219,7 +327,7 @@ article
     margin-right: 20px;
     margin-left: 30px;
     display:flex;
-    margin-top: none;
+    margin-top: 0;
 }
 
 aside

@@ -10,6 +10,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/95b50e4185.js" crossorigin="anonymous"></script>
+        
     </head >
     <body class="Raleway-Light">
         <header>
@@ -26,32 +27,33 @@
                             <li  class="nav-item">
                                 <a  id="a2" href="#menu1">Activités</a>
                             </li>
-                            <li id="a3" class="nav-item">
-                                <a href="#menu2">S'inscrire</a>
+                            <li  class="nav-item">
+                                <a id="a3" href="#menu2">S'inscrire</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
-                    <br/><p  class="paragraphe1">Trouver votre hébergements pour des vacances de rêve</p>
+            <div id="bordure"></div>
+                    <br/><h2  class="paragraphe1">Trouver votre hébergements pour des vacances de rêve</h2>
                     <p  class="paragraphe2">En plein centre ville ou en plein nature</p>
 
 
         </header>
 
         <section>
-            <div>
+            <div >
                 <form class="form-inline" action="/action_page.php">
                     <button id="icon"  class="btn btn-primary"><i class="fas fa-map-marker-alt"></i></button>
                     <input type="text" class="form-control" id="pseudo" placeholder="Marseille,France" name="pseudo">
-                    <button id="recherche" type="submit" class="btn btn-primary">Rechercher</button>
+                    <button id="recherche" type="submit" class="btn btn-primary" >Rechercher </button>
+                    <button id="recherche1" type="submit" class="btn btn-primary" ><i class="fas fa-search"></i></button>
                 </form>
             </div>
             <div>
                 <form method="post" action="traitement.php">
                     <div class="Btn">
-                        <p class="BtnTitle">Filtres</p>
-
+                      <p class="BtnTitle">Filtres</p>
                         <div class="BtnFilter">
                             <div class="CercleIcon">
                                 <i class="fas fa-money-bill-wave couleurIconBleu"></i>
@@ -85,11 +87,12 @@
             <div class="resultatRecherche">
                 <div class="infoIcon"><i class="fas fa-info infoColor"></i></div>
                 <p class="resultatRechercheText">Plus de 500 logements sont disponibles dans cette ville</p>
+                <p class="resultatRechercheText1">Plus de 500 logements sont disponibles<br/> dans cette ville</p>
             </div>
             </section>
             <section class="block">
             <article>
-            <h4 id="home">Hébergements à Marseille</h4>
+            <h3 id="home">Hébergements à Marseille</h3>
             
                             <div class="boutonimage">
                                 <div class="boutonimage1">
@@ -224,7 +227,7 @@
         </section>
         <section>
 
-            <h4 id="menu1">Activités à Marseille</h4>
+            <h3 id="menu1">Activités à Marseille</h3>
             
                 <div id="lesboutonsactivites">
                     <!-- 1/4 1ere colonne : Vieux Port-->
@@ -280,7 +283,7 @@
         <footer>
             <div class="footer">
             <div id="Apropos">
-                <h4 id="footer1h5">A propos</h4>
+                <h4 id="footer1h5">A propos</h4 >
                 <ul >
                     <li><a id="lienfooter1" href="#">Fonctionnement du site</a></li>
                     <li><a id="lienfooter2" href="#">Conditions générales de vente</a></li>
