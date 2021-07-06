@@ -225,31 +225,6 @@ nav a
 {
   display: none;
 }
-}
-@media all and (max-width: 800px)
-{
-.block
-{
-  display: flex;
-  flex-direction: column-reverse;
-}
-.boutonimage
-{
-  display: flex;
-  flex-direction: column;
-}
-.boutonimage1
-{
- width: 100%;
-}
-article
-{
- background-color: transparent;
-}
-aside
-{
- background-color: transparent;
-}
 
 }
 .Btn
@@ -338,6 +313,7 @@ aside
     border-radius: 20px;
     padding-right: 100px;
     margin-right: 30px;
+    display: flex;
 }
 .paragrapheimage
 {
@@ -345,15 +321,16 @@ aside
     margin-left: 10px;
     padding-left: 8px;
     font-family: "Raleway-normal";
-    height: 60px;
+    height: 15%;
     margin-top: 10px;
+    
 }
 .boutonimage
 {
     display: flex;
     text-align: center;
     list-style-type: none;
-    padding-left: 40px;
+    padding-left: 30px;
     
 }
 #lienhebergement1, #lienhebergement2, #lienhebergement3, #lienhebergement4, #lienhebergement5, #lienhebergement6, #lienhebergement7, #lienhebergement8, #lienhebergement9
@@ -365,7 +342,7 @@ aside
 
 .boutonimage1
 {
-    width: 30%;
+   width: 100%;
     margin-right:25px;
     margin-bottom: 20px;
     background-color: white;
@@ -389,7 +366,7 @@ aside
 }
 #home
 {
-    margin-left:50px;
+    margin-left:40px;
     margin-top: 30px;
     margin-bottom: 20px;
     font-family: "Raleway-bold";
@@ -412,17 +389,12 @@ aside
 }
     #icone2
 {
-    margin-right:10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: absolute;
-    right: 20px;
+   position: absolute;
+   right: 30px;
+   top: 40px;
 
 }
-.aside
-{
-    display: flex;
-}
+
 .boutonimage_
 {
   list-style-type: none;
@@ -456,10 +428,48 @@ aside
 
 .paragrapheimage2
 {
-
  padding-top: 15px;
  text-align: left;
- line-height: 1.6em;
+ line-height: 1.5em;
+ 
+}
+@media all and (max-width: 800px)
+{
+.block
+{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.boutonimage
+{
+  display: flex;
+  flex-direction: column;
+}
+article
+{
+ background-color: transparent;
+position: relative ;
+right: 20px;
+}
+.boutonimage2
+{
+  width: 110%;
+  position: relative;
+  left: 15px;
+ }
+ .boutonimage1
+{
+ width: 100%;
+ box-shadow: 8px 7px 8px  lightgray, -8px 7px 8px  lightgray;
+ }
+ aside
+ {
+   margin-left: 10px;
+   position: relative;
+   left: 10px;
+  }
+
 }
 .checked
  {
@@ -579,6 +589,43 @@ aside
   width: 100%;
   box-shadow: 8px 7px 10px lightgray, -8px 7px 10px  lightgray;
 }
+@media all and (max-width: 800px)
+{
+  #lesboutonsactivites
+{
+  display: flex;
+  flex-direction: column;
+  
+}
+.boutonimage3, .lespetitsboutons, .boutonimage8
+{
+  width: 90%;
+  
+}
+#image3, #image3_, #image5, #image7, #image4, #image6
+{
+  height: 200px;
+  
+}
+.boutonimage4, .boutonimage3, .boutonimage5, .boutonimage6, .boutonimage7, .boutonimage8
+{
+  margin-bottom: 20px;
+  
+}
+.boutonimage3
+{
+  position: relative;
+  left: 25px;
+  
+}
+.boutonimage4, .boutonimage5, .boutonimage6, .boutonimage7, .boutonimage8
+{
+  margin-bottom: 20px;
+  position: relative;
+  left: 40px;
+}
+  
+}
 .footer
 {
   display: flex;
@@ -621,3 +668,22 @@ footer ul
    left: 400px;
    line-height: 2em;
  }
+ @media all and (max-width: 800px)
+{
+  .footer
+{
+  display: flex;
+  flex-direction: column;
+}
+#noshebergements
+{
+  position:relative;
+  left: 5px; 
+}
+#Asistance
+ {
+   position: relative;
+   left: 5px;
+   
+ }
+}
