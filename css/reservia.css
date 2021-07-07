@@ -79,6 +79,18 @@ nav a
 {
     font-size: 1.2em;
 }
+.paragraphe1
+{
+    
+    font-family: "Raleway-bold";
+    margin-left: 30px;
+}
+.paragraphe2
+{
+    font-size: 1.3em;
+    font-family: "Raleway-light";
+    margin-left: 30px;
+}
 @media all and (max-width: 768px)
 {
     #a1 
@@ -109,20 +121,8 @@ nav a
     border-bottom: 3px rgb(243, 243, 243) solid;
     margin-top: 40px;
   }
-  
 }
-.paragraphe1
-{
-    
-    font-family: "Raleway-bold";
-    margin-left: 2%;
-}
-.paragraphe2
-{
-    font-size: 1.3em;
-    font-family: "Raleway-light";
-    margin-left: 2%;
-}
+
 /* Section1:Les quatres boutons:économique, familial, romantique, animaux autorisés */
 .form-inline
 {
@@ -150,85 +150,8 @@ nav a
  {
     border-radius: 0px 1px 1px 0px;
     font-size: 1.3em;
-   
  }
- @media all and (max-width: 768px)
-{
-  #pseudo
-  {
-   width: 75%;
-}
-#recherche
-{
-  display: none;
-}
-#recherche1
- {
-    display: inline;
-    height: 45px;
-    width: 45px;
-    border-radius: 0px 10px 10px 0px;  
- }
- 
-}
-
-.resultatRecherche
-{
-    display: flex;
-    align-items: center;
-    margin: 1rem 0 2rem 0;
-    margin-left: 30px;
-}
-
-.infoIcon
-{
-    height: 2rem;
-    width: 2rem;
-    min-height: 2rem;
-    min-width: 2rem;
-    border: solid 1px #d9d9d9;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
-}
-
-.infoColor
-{
-    color: #0065FC;
-}
-
-.resultatRechercheText
-{
-    margin: 0;
-    font-family: "Raleway-light";
-    font-size: 1.5em;
-}
-.resultatRechercheText1
-{
-  display: none;
-}
-@media all and (max-width: 768px)
-{
-  .infoIcon
-  {
-    margin-bottom: 60px;
-    margin-top: 10px;
-  }
-  .resultatRechercheText1
-{
-  display: inline;
-  font-family: "Raleway-light";
-    font-size: 1.5em;
-}
-.resultatRechercheText
-{
-  display: none;
-}
-
-}
-.Btn
+ .Btn
 {
     display: flex;
     margin-top: 2rem;
@@ -291,13 +214,81 @@ nav a
     margin: 0 1rem;
     font-size: 1.3em;
 }
+
+.resultatRecherche
+{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+    margin-left: 30px;
+}
+.infoIcon
+{
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.infoColor
+{
+    color: #0065FC;
+}
+
+.resultatRechercheText
+{
+    margin: 0;
+    font-family: "Raleway-light";
+    font-size: 1.5em;
+}
+.resultatRechercheText1
+{
+  display: none;
+}
+ 
 @media all and (max-width: 768px)
 {
-  .BtnTitle
+  #pseudo
   {
-    padding-right: 500px;
+   width: 75%;
+}
+#recherche
+{
+  display: none;
+}
+#recherche1
+ {
+    display: inline;
+    height: 45px;
+    width: 45px;
+    border-radius: 0px 10px 10px 0px;  
+ }
+  .infoIcon
+  {
+    margin-bottom: 60px;
+    margin-top: 10px;
+  }
+  .resultatRechercheText1
+{
+  display: inline;
+  font-family: "Raleway-light";
+  font-size: 1.5em;
+}
+.resultatRechercheText
+{
+  display: none;
+}
+.BtnTitle
+  {
+  padding-right: 500px;
 }
 }
+
 /* Section: article(Hébergements à Marseille) */
 .block
 {
@@ -331,8 +322,7 @@ aside
     padding-left: 8px;
     font-family: "Raleway-normal";
     font-size: 89%;
-    margin-top: 10px;
-    
+    margin-top: 10px;   
 }
 .boutonimage
 {
@@ -342,7 +332,12 @@ aside
     padding-left: 30px;
     
 }
-#lienhebergement1, #lienhebergement2, #lienhebergement3, #lienhebergement4, #lienhebergement5, #lienhebergement6, #lienhebergement7, #lienhebergement8, #lienhebergement9
+#lienhebergement1, #lienhebergement2, #lienhebergement3, #lienhebergement4
+{
+  text-decoration: none;
+  color: black;
+}
+#lienhebergement5, #lienhebergement6, #lienhebergement7, #lienhebergement8, #lienhebergement9
   
 {
   text-decoration: none;
@@ -376,9 +371,9 @@ aside
 #home
 {
     margin-left:40px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-family: "Raleway-bold";
-    padding-top: 20px;
+    margin-top: 30px;
 }
 
 #affichage
@@ -395,15 +390,13 @@ aside
     margin-left: 25px;
     margin-top: 30px;
     padding-bottom: 20px;
-    font-family: "Raleway-bold";
-    
+    font-family: "Raleway-bold";    
 }
     #icone2
 {
    position: absolute;
    right: 30px;
    top: 40px;
-
 }
 
 .boutonimage_
@@ -423,12 +416,12 @@ aside
     box-shadow: 8px 7px 8px  lightgray;
 }
 .boutonimage2:hover
-{
+{ 
   background-color:white;
   transform: scale(1.015);
 }
 #image2, #image2_, #image2-
-{
+{ 
   float: left;
   border-radius: 20px 0px 0px 20px;
   margin: 8px 15px 8px 8px;
@@ -438,12 +431,33 @@ aside
 }
 
 .paragrapheimage2
-{
+{ 
  padding-top: 15px;
  text-align: left;
  line-height: 1.5em;
  font-size: 89%;
 }
+
+.checked
+ { 
+  color:  #0065FC;
+ }
+
+.unchecked
+{
+ color: #d9d9d9;
+ }
+
+ .checked2
+  {
+  color: #0065FC;
+  margin-top: 20px;
+  }
+  .unchecked2
+  {
+   color: #d9d9d9;
+   margin-top: 20px;
+  }
 @media all and (max-width: 768px)
 {
 .block
@@ -451,7 +465,6 @@ aside
   display: flex;
   flex-direction: column-reverse;
 }
-
 .boutonimage
 {
   display: flex;
@@ -481,29 +494,8 @@ right: 20px;
    left: 10px;
    border-radius: 0px;
   }
-
 }
-.checked
- {
- color:  #0065FC;
- }
 
-.unchecked
-{
- color: #d9d9d9;
- }
-
-  .checked2
-  {
-  color: #0065FC;
-  margin-top: 20px;
-  }
-
-  .unchecked2
-  {
-   color: #d9d9d9;
-   margin-top: 20px;
-  }
   /* Section2: Activité à Marseille */
   #menu1
 {
@@ -697,50 +689,48 @@ footer ul
 #Asistance
  {
    position: relative;
-   left: 5px;
-   
+   left: 5px; 
  }
 }
 @media all and (min-width: 768px) and (max-width: 991px)
-{
-  .block
-  {
- display: block;
-  
+{ 
+.block
+ {
+ display: block; 
 }
 aside
 {
  width: 95%;
-  position: relative;
-  left: 25px;
-  height: 650px;
+ position: relative;
+ left: 25px;
+ height: 650px;
  }
 .boutonimage2
-{
-  width: 100%;
-  position: relative;
-  left: 15px;
+{ 
+ width: 100%;
+ position: relative;
+ left: 15px;
  }
-  #titre
-  {
-   padding-top: 20px;
-   }
-   .boutonimage3
+ #titre
+{ 
+ padding-top: 20px;
+ }
+.boutonimage3
 {
  margin-left: 35px;
 }
 .boutonimage3, .lespetitsboutons, .boutonimage8
 {
-  margin-right: 3.5%;
+ margin-right: 3.5%;
 }
 #noshebergements
-{
-  position:relative;
-  left: 5%; 
+{ 
+ position:relative;
+ left: 5%; 
 }
 #Asistance
- {
-   position: relative;
-   left: 12%;
+ { 
+ position: relative;
+ left: 12%;
  }
 }
