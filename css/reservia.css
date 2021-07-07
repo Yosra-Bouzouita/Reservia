@@ -29,7 +29,7 @@
 {
     font-family: "Raleway-bold";
 }
-
+/* Header */
 #logo
 {
   width:100px;
@@ -123,7 +123,7 @@ nav a
     font-family: "Raleway-light";
     margin-left: 2%;
 }
-
+/* Section1:Les quatres boutons:économique, familial, romantique, animaux autorisés */
 .form-inline
 {
    margin-left: 25px;
@@ -298,6 +298,7 @@ nav a
     padding-right: 500px;
 }
 }
+/* Section: article(Hébergements à Marseille) */
 .block
 {
     display: flex;
@@ -388,6 +389,7 @@ aside
     padding-bottom: 40px;
     font-size: 1.2em;
 }
+/* Section: aside(Les plus populaires) */
 #titre
 {
     margin-left: 25px;
@@ -502,6 +504,7 @@ right: 20px;
    color: #d9d9d9;
    margin-top: 20px;
   }
+  /* Section2: Activité à Marseille */
   #menu1
 {
   margin-left:40px;
@@ -633,9 +636,9 @@ right: 20px;
   margin-bottom: 20px;
   position: relative;
   left: 40px;
+} 
 }
-  
-}
+/* Footer */
 .footer
 {
   display: flex;
