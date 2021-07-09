@@ -94,7 +94,7 @@ nav a
     font-family: "Raleway-light";
     margin-left: 30px;
 }
-@media all and (max-width: 768px)
+@media all and (max-width: 767px)
 {
     #a1 
     {
@@ -254,7 +254,7 @@ nav a
   display: none;
 }
  
-@media all and (max-width: 768px)
+@media all and (max-width: 767px)
 {
   #pseudo
   {
@@ -462,7 +462,7 @@ aside
    color: #d9d9d9;
    margin-top: 20px;
   }
-@media all and (max-width: 768px)
+@media all and (max-width: 767px)
 {
 .block
 {
@@ -600,7 +600,7 @@ right: 20px;
   width: 100%;
   box-shadow: 8px 7px 10px lightgray, -8px 7px 10px  lightgray;
 }
-@media all and (max-width: 768px)
+@media all and (max-width: 767px)
 {
   #lesboutonsactivites
 {
@@ -630,13 +630,13 @@ right: 20px;
 {
   margin-bottom: 20px;
   position: relative;
-  left: 33px;
+  left: 32px;
 } 
 .boutonimage7
 {
   
   position: relative;
-  left: 33px;
+  left: 32px;
   bottom: 30px;
   
 }
@@ -685,7 +685,7 @@ footer ul
    left: 30%;
    line-height: 2em;
  }
- @media all and (max-width: 768px)
+ @media all and (max-width: 767px)
 {
   .footer
 {
