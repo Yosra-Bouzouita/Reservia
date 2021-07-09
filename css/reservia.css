@@ -66,7 +66,7 @@ nav a
    #a1
 {
     border-top: 3px blue solid;
-    padding-top: 32px;
+    padding-top: 33px;
     padding-left:  10px;
     padding-right: 10px;
     font-size: 1.2em;
@@ -409,7 +409,7 @@ aside
 }
 .boutonimage2
 {
-    width: 105%;
+    width: 108%;
     height: 155px;
     margin-left:20px;
     margin-bottom: 20px;
@@ -636,7 +636,7 @@ right: 20px;
 {
   
   position: relative;
-  left: 25px;
+  left: 30px;
   bottom: 30px;
   
 }
@@ -701,6 +701,7 @@ footer ul
  {
    position: relative;
    left: 0px; 
+   right: 200px;
  }
 }
 @media all and (min-width: 768px) and (max-width: 991px)
@@ -755,22 +756,22 @@ aside
 {
   #a1 
   {
-      padding-left: 25px;
+      padding-left: 15px;
   }
   #a2
   {
     position: absolute;
-    top: 110px;
+    top: 100px;
       
 }
   .paragrapheimage
 { 
-font-size: 50%;
+font-size: 65%;
  
 }
 .paragrapheimage2
 { 
-font-size: 50%;
+font-size: 65%;
  
 }
 }
