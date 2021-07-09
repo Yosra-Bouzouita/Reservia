@@ -43,6 +43,7 @@ nav ul
 {
     list-style-type: none;
     display:flex;
+    
    
 }
 nav  li {
@@ -101,14 +102,14 @@ nav a
         border-top: none;
         border-bottom: 2px blue solid;
         padding-bottom: 15px;
-        padding-right: 25%;
-        padding-left: 30px;
+        padding-right: 10%;
+        padding-left: 20px;
     }
     #a2
     {
       position: absolute;
       top: 95px;
-      right: 20%;   
+      right: 15%;   
   }
   #a3
     {
@@ -255,7 +256,7 @@ nav a
 {
   #pseudo
   {
-   width: 75%;
+   width: 55%;
 }
 #recherche
 {
@@ -324,6 +325,7 @@ aside
     font-size: 89%;
     margin-top: 10px;   
 }
+
 .boutonimage
 {
     display: flex;
@@ -511,6 +513,7 @@ right: 20px;
    position: relative;
    right: 6px;
    list-style-type: none;
+   width: 100%;
   }
 
   .lespetitsboutons
@@ -726,11 +729,11 @@ aside
 #noshebergements
 { 
  position:relative;
- left: 3%; 
+ left: 2%; 
 }
 #Asistance
  { 
  position: relative;
- left: 8%;
+ left: 6%;
  }
 }
