@@ -33,6 +33,8 @@
 #logo
 {
   width:100px;
+  margin-bottom: 15px;
+
 }
 .paragraphe
 {
@@ -97,7 +99,7 @@ nav a
     #a1 
     {
         position: absolute;
-        top: 60px;
+        top: 75px;
         left: 5px;   
         border-top: none;
         border-bottom: 2px blue solid;
@@ -108,7 +110,7 @@ nav a
     #a2
     {
       position: absolute;
-      top: 95px;
+      top: 105px;
       right: 12%;   
   }
   #a3
@@ -616,13 +618,10 @@ right: 20px;
   height: 200px;
   
 }
-.boutonimage4, .boutonimage3, .boutonimage5, .boutonimage6, .boutonimage7, .boutonimage8
-{
-  margin-bottom: 20px;
-  
-}
+
 .boutonimage3
 {
+  margin-bottom: 20px;
   position: relative;
   left: 25px;
   
@@ -631,7 +630,7 @@ right: 20px;
 {
   margin-bottom: 20px;
   position: relative;
-  left: 40px;
+  left: 35px;
 } 
 }
 /* Footer */
@@ -688,12 +687,12 @@ footer ul
 #noshebergements
 {
   position:relative;
-  left: 5px; 
+  left: 0.5px; 
 }
 #Asistance
  {
    position: relative;
-   left: 5px; 
+   left: 0.5px; 
  }
 }
 @media all and (min-width: 768px) and (max-width: 991px)
@@ -714,6 +713,10 @@ aside
  width: 100%;
  position: relative;
  left: 15px;
+ }
+ #home
+{ 
+ padding-top: 20px;
  }
  #titre
 { 
@@ -744,12 +747,12 @@ aside
 {
   .paragrapheimage
 { 
-font-size: 70%;
+font-size: 50%;
  
 }
 .paragrapheimage2
 { 
-font-size: 70%;
+font-size: 50%;
  
 }
 }
