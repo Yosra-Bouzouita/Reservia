@@ -109,7 +109,7 @@ nav a
     {
       position: absolute;
       top: 95px;
-      right: 15%;   
+      right: 12%;   
   }
   #a3
     {
@@ -322,8 +322,8 @@ aside
     margin-left: 10px;
     padding-left: 8px;
     font-family: "Raleway-normal";
-    font-size: 89%;
     margin-top: 10px;   
+    font-size: 89%;
 }
 
 .boutonimage
@@ -407,7 +407,7 @@ aside
 }
 .boutonimage2
 {
-    width: 120%;
+    width: 118%;
     height: 155px;
     margin-left:12px;
     margin-bottom: 20px;
@@ -496,6 +496,7 @@ right: 20px;
    left: 10px;
    border-radius: 0px;
   }
+  
 }
 
   /* Section2: Activité à Marseille */
@@ -729,11 +730,26 @@ aside
 #noshebergements
 { 
  position:relative;
- left: 2%; 
+ left: 0.5%; 
 }
 #Asistance
  { 
  position: relative;
- left: 6%;
+ left: 4%;
  }
+ 
+}
+
+@media all and (max-width: 375px)
+{
+  .paragrapheimage
+{ 
+font-size: 70%;
+ 
+}
+.paragrapheimage2
+{ 
+font-size: 70%;
+ 
+}
 }
