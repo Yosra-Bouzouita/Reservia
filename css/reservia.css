@@ -83,8 +83,7 @@ nav a
     font-size: 1.2em;
 }
 .paragraphe1
-{
-    
+{ 
     font-family: "Raleway-bold";
     margin-left: 30px;
 }
@@ -247,7 +246,7 @@ nav a
 {
     margin: 0;
     font-family: "Raleway-light";
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .resultatRechercheText1
 {
@@ -280,7 +279,7 @@ nav a
 {
   display: inline;
   font-family: "Raleway-light";
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .resultatRechercheText
 {
@@ -484,7 +483,7 @@ right: 20px;
 {
   width: 110%;
   position: relative;
-  left: 15px;
+  left: 8px;
  }
  .boutonimage1
 {
@@ -616,7 +615,6 @@ right: 20px;
 #image3, #image3_, #image5, #image7, #image4, #image6
 {
   height: 200px;
-  
 }
 
 .boutonimage3
@@ -701,7 +699,6 @@ footer ul
  {
    position: relative;
    left: 0px; 
-   
  }
 }
 @media all and (min-width: 767px) and (max-width: 991px)
@@ -749,31 +746,27 @@ aside
  position: relative;
  left: 4%;
  }
- 
 }
 
 @media all and (max-width: 375px)
 {
   #a1 
   {
-      padding-left: 15px;
-     
+   padding-left: 15px;
   }
   #a2
   {
-    position: absolute;
-    top: 108px;
-      
+  position: absolute;
+  top: 108px;    
 }
 .paragraphe1
-{
-    
-    font-size: 1.5em;
+{  
+font-size: 1.5em;
 }
 .paragraphe2
 {
     
-    font-size: 1.2em;
+font-size: 1.2em;
 }
   .paragrapheimage
 { 
@@ -787,7 +780,6 @@ font-size: 65%;
 }
 .resultatRechercheText1
 { 
-  font-size: 1.2em;
-   
+  font-size: 1.2em; 
   }
 }
