@@ -105,7 +105,7 @@ nav a
         border-bottom: 2px blue solid;
         padding-bottom: 15px;
         padding-right: 10%;
-        padding-left: 20px;
+        padding-left: 30px;
     }
     #a2
     {
@@ -409,9 +409,9 @@ aside
 }
 .boutonimage2
 {
-    width: 118%;
+    width: 105%;
     height: 155px;
-    margin-left:12px;
+    margin-left:20px;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 20px;
@@ -610,7 +610,7 @@ right: 20px;
 }
 .boutonimage3, .lespetitsboutons, .boutonimage8
 {
-  width: 90%;
+  width: 85%;
   
 }
 #image3, #image3_, #image5, #image7, #image4, #image6
@@ -626,12 +626,20 @@ right: 20px;
   left: 25px;
   
 }
-.boutonimage4, .boutonimage5, .boutonimage6, .boutonimage7, .boutonimage8
+.boutonimage4, .boutonimage5,  .boutonimage6, .boutonimage8
 {
   margin-bottom: 20px;
   position: relative;
-  left: 35px;
+  left: 25px;
 } 
+.boutonimage7
+{
+  
+  position: relative;
+  left: 25px;
+  bottom: 30px;
+  
+}
 }
 /* Footer */
 .footer
@@ -687,12 +695,12 @@ footer ul
 #noshebergements
 {
   position:relative;
-  left: 0.5px; 
+  left: 0px; 
 }
 #Asistance
  {
    position: relative;
-   left: 0.5px; 
+   left: 0px; 
  }
 }
 @media all and (min-width: 768px) and (max-width: 991px)
@@ -745,6 +753,16 @@ aside
 
 @media all and (max-width: 375px)
 {
+  #a1 
+  {
+      padding-left: 25px;
+  }
+  #a2
+  {
+    position: absolute;
+    top: 110px;
+      
+}
   .paragrapheimage
 { 
 font-size: 50%;
