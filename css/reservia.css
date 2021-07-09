@@ -630,13 +630,13 @@ right: 20px;
 {
   margin-bottom: 20px;
   position: relative;
-  left: 35px;
+  left: 33px;
 } 
 .boutonimage7
 {
   
   position: relative;
-  left: 35px;
+  left: 33px;
   bottom: 30px;
   
 }
@@ -704,7 +704,7 @@ footer ul
    
  }
 }
-@media all and (min-width: 768px) and (max-width: 991px)
+@media all and (min-width: 767px) and (max-width: 991px)
 { 
 .block
  {
@@ -770,6 +770,11 @@ aside
     
     font-size: 1.5em;
 }
+.paragraphe2
+{
+    
+    font-size: 1.2em;
+}
   .paragrapheimage
 { 
 font-size: 65%;
@@ -782,7 +787,7 @@ font-size: 65%;
 }
 .resultatRechercheText1
 { 
-  font-size: 1em;
+  font-size: 1.2em;
    
   }
 }
