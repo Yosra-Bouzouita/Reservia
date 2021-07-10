@@ -481,7 +481,7 @@ article
 {
  background-color: transparent;
 position: relative ;
-right: 20px;
+right: 2%;
 }
 .boutonimage2
 {
@@ -496,7 +496,6 @@ right: 20px;
  {
    width: 92%;
    margin-left: 4%;
-  
    border-radius: 0px;
   }
   
