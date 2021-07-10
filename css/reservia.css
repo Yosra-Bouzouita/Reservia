@@ -1,7 +1,7 @@
 @font-face
 { /* Définition d'une nouvelle police nommée CAC Champagne */
     font-family: 'Raleway-light';
-    src: url('css/static/Raleway-Light.ttf');
+    src: url('static/Raleway-Light.ttf');
     font-style: swap;
 }
 .Raleway-Light
@@ -615,6 +615,7 @@ right: 20px;
 .boutonimage3, .lespetitsboutons, .boutonimage8
 {
   width: 85%;
+  text-align: justify;
   
 }
 #image3, #image3_, #image5, #image7, #image4, #image6
