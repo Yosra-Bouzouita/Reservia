@@ -2,6 +2,7 @@
 { /* Définition d'une nouvelle police nommée CAC Champagne */
     font-family: 'Raleway-light';
     src: url('css/static/Raleway-Light.ttf');
+    font-style: swap;
 }
 .Raleway-Light
 {
@@ -12,6 +13,7 @@
 { /* Définition d'une nouvelle police nommée CAC Champagne */
     font-family: 'Raleway-normal';
     src: url('Raleway-VariableFont_wght.ttf');
+    font-style: swap;
 
 }
 .Raleway-normal
@@ -23,6 +25,7 @@
 { /* Définition d'une nouvelle police nommée CAC Champagne */
     font-family: 'Raleway-bold';
     src: url('static/Raleway-Bold.ttf');
+    font-style: swap;
 }
 
 .Raleway-bold
@@ -400,7 +403,7 @@ aside
     #icone2
 {
    position: absolute;
-   right: 30px;
+   right: 50px;
    top: 40px;
 }
 
@@ -784,4 +787,8 @@ font-size: 65%;
 { 
   font-size: 1.2em; 
   }
+  #home, #titre, #menu
+  { 
+    font-size: 1.5em; 
+    }
 }
