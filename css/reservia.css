@@ -102,7 +102,7 @@ nav a
         left: 5px;   
         border-top: none;
         border-bottom: 2px blue solid;
-        padding-bottom: 15px;
+        padding-bottom: 14px;
         padding-right: 10%;
         padding-left: 30px;
     }
@@ -120,7 +120,7 @@ nav a
   
   #bordure
   {
-    border-bottom: 3px rgb(243, 243, 243) solid;
+    border-bottom: 4px rgb(243, 243, 243) solid;
     margin-top: 40px;
   }
 }
@@ -386,6 +386,8 @@ aside
     margin-top: 20px;
     padding-bottom: 40px;
     font-size: 1.2em;
+    text-decoration: none;
+    color: black;
 }
 /* Section: aside(Les plus populaires) */
 #titre
