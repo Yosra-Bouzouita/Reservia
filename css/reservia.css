@@ -327,7 +327,7 @@ aside
     padding-left: 8px;
     font-family: "Raleway-normal";
     margin-top: 10px;   
-    font-size: 89%;
+    font-size: 87%;
 }
 
 .boutonimage
@@ -395,7 +395,7 @@ aside
 /* Section: aside(Les plus populaires) */
 #titre
 {
-    margin-left: 25px;
+    margin-left: 30px;
     margin-top: 30px;
     padding-bottom: 20px;
     font-family: "Raleway-bold";    
@@ -403,7 +403,7 @@ aside
     #icone2
 {
    position: absolute;
-   right: 50px;
+   right: 55px;
    top: 40px;
 }
 
@@ -413,7 +413,7 @@ aside
 }
 .boutonimage2
 {
-    width: 108%;
+    width: 115%;
     height: 155px;
     margin-left:20px;
     margin-bottom: 20px;
@@ -443,7 +443,7 @@ aside
  padding-top: 15px;
  text-align: left;
  line-height: 1.5em;
- font-size: 89%;
+ font-size: 87%;
 }
 
 .checked
@@ -627,20 +627,21 @@ right: 20px;
   margin-bottom: 20px;
   position: relative;
   left: 25px;
-  
 }
 .boutonimage4, .boutonimage5,  .boutonimage6, .boutonimage8
 {
   margin-bottom: 20px;
   position: relative;
-  left: 32px;
+  left: 39px;
+  
 } 
 .boutonimage7
 {
   
   position: relative;
-  left: 32px;
+  left: 39px;
   bottom: 30px;
+  
   
 }
 }
@@ -725,6 +726,11 @@ aside
  position: relative;
  left: 15px;
  }
+ #icone2
+ {
+    position: absolute;
+    right: 75px;
+ }
  #home
 { 
  padding-top: 20px;
@@ -732,6 +738,7 @@ aside
  #titre
 { 
  padding-top: 20px;
+ padding-left: 20px;
  }
 .boutonimage3
 {
