@@ -78,8 +78,7 @@ nav a
 {
     color:black;
     font-size: 1.2em;
-    padding-right: 10px;
-     
+    padding-right: 10px;  
 }
 #a3
 {
@@ -107,7 +106,7 @@ nav a
         border-bottom: 2px blue solid;
         padding-bottom: 14px;
         padding-right: 10%;
-        padding-left: 30px;
+        padding-left: 35px;
     }
     #a2
     {
@@ -301,11 +300,11 @@ nav a
 }
 article
 {
-    flex:3;
+    flex:2.5;
     background-color:#E3EAEF;
     border-radius: 20px;
     margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     display:flex;
     margin-top: 0;
 }
@@ -316,8 +315,7 @@ aside
     position: relative;
     background-color:#E3EAEF;
     border-radius: 20px;
-    padding-right: 100px;
-    margin-right: 30px;
+   margin-right: 2%;
     display: flex;
 }
 .paragrapheimage
@@ -327,7 +325,7 @@ aside
     padding-left: 8px;
     font-family: "Raleway-normal";
     margin-top: 10px;   
-    font-size: 87%;
+    font-size: 85%;
 }
 
 .boutonimage
@@ -388,7 +386,7 @@ aside
     font-family: "Raleway-bold";
     margin-top: 20px;
     padding-bottom: 40px;
-    font-size: 1.2em;
+    font-size: 1em;
     text-decoration: none;
     color: black;
 }
@@ -403,8 +401,8 @@ aside
     #icone2
 {
    position: absolute;
-   right: 55px;
-   top: 40px;
+   right: 6%;
+   top: 35px;
 }
 
 .boutonimage_
@@ -413,15 +411,16 @@ aside
 }
 .boutonimage2
 {
-    width: 115%;
+    width: 90%;
     height: 155px;
-    margin-left:20px;
+    margin-left:5%;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 20px;
     border: none;
     font-family: "Raleway-normal";
     box-shadow: 8px 7px 8px  lightgray;
+    
 }
 .boutonimage2:hover
 { 
@@ -432,7 +431,7 @@ aside
 { 
   float: left;
   border-radius: 20px 0px 0px 20px;
-  margin: 8px 15px 8px 8px;
+  margin: 8px 8px 8px 8px;
   height: 138px;
   object-fit: cover;
   width: 40%;
@@ -443,7 +442,7 @@ aside
  padding-top: 15px;
  text-align: left;
  line-height: 1.5em;
- font-size: 87%;
+ font-size: 85%;
 }
 
 .checked
@@ -486,9 +485,7 @@ right: 20px;
 }
 .boutonimage2
 {
-  width: 110%;
-  position: relative;
-  left: 1px;
+  width: 90%;
  }
  .boutonimage1
 {
@@ -497,9 +494,9 @@ right: 20px;
  }
  aside
  {
-   margin-left: 10px;
-   position: relative;
-   left: 10px;
+   width: 92%;
+   margin-left: 4%;
+  
    border-radius: 0px;
   }
   
@@ -508,12 +505,11 @@ right: 20px;
   /* Section2: Activité à Marseille */
   #menu1
 {
-  margin-left:40px;
+  margin-left:3%;
   margin-top: 50px;
   margin-bottom: 20px;
   font-family: "Raleway-bold";
 }
-
   #lesboutonsactivites
   {
    display: flex;
@@ -606,6 +602,12 @@ right: 20px;
 }
 @media all and (max-width: 767px)
 {
+  #menu1
+  {
+    margin-left:8%;
+   
+  }
+  
   #lesboutonsactivites
 {
   display: flex;
@@ -627,22 +629,25 @@ right: 20px;
 {
   margin-bottom: 20px;
   position: relative;
-  left: 25px;
+  left: 6%;
 }
-.boutonimage4, .boutonimage5,  .boutonimage6, .boutonimage8
+.boutonimage4, .boutonimage5,  .boutonimage6
 {
   margin-bottom: 20px;
   position: relative;
-  left: 39px;
-  
+  left: 9%;
 } 
 .boutonimage7
 {
-  
   position: relative;
-  left: 39px;
+  left: 9%;
   bottom: 30px;
-  
+}
+.boutonimage8
+{
+  margin-bottom: 20px;
+  position: relative;
+  left: 7.5%;
   
 }
 }
@@ -716,21 +721,21 @@ footer ul
 }
 aside
 {
- width: 95%;
+ width: 95.5%;
  position: relative;
- left: 25px;
+ left: 20px;
  height: 650px;
  }
 .boutonimage2
 { 
- width: 100%;
- position: relative;
- left: 15px;
+ width: 90%;
+ 
  }
  #icone2
  {
     position: absolute;
     right: 75px;
+    top: 25px;
  }
  #home
 { 
@@ -739,7 +744,11 @@ aside
  #titre
 { 
  padding-top: 20px;
- padding-left: 20px;
+ padding-left: 30px;
+ }
+ #menu1
+ {
+   margin-left:4%;
  }
 .boutonimage3
 {
@@ -797,6 +806,6 @@ font-size: 65%;
   }
   #home, #titre, #menu
   { 
-    font-size: 1.5em; 
+    font-size: 1.2em; 
     }
 }
