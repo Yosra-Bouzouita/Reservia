@@ -481,7 +481,7 @@ article
 {
  background-color: transparent;
 position: relative ;
-right: 5.5%;
+right: 4.5%;
 }
 .boutonimage2
 {
@@ -502,7 +502,7 @@ right: 5.5%;
   }
   #home
 {
-   margin-left: 10%;
+   margin-left: 11%;
 }
 }
 
@@ -812,4 +812,13 @@ font-size: 65%;
   { 
     font-size: 1.2em; 
     }
+    article
+{
+position: relative ;
+right: 6%;
+}
+#home
+{ 
+  margin-left: 13%; 
+  }
 }
