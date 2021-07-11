@@ -486,11 +486,13 @@ right: 4%;
 .boutonimage2
 {
   width: 90%;
+  
  }
  .boutonimage1
 {
  width: 100%;
  box-shadow: 8px 7px 8px  lightgray, -8px 7px 8px  lightgray;
+ margin-left: 2%;
  }
  aside
  {
@@ -498,7 +500,10 @@ right: 4%;
    margin-left: 4%;
    border-radius: 0px;
   }
-  
+  #home
+{
+   margin-left: 8%;
+}
 }
 
   /* Section2: Activité à Marseille */
